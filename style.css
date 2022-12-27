@@ -1,8 +1,52 @@
 body{
-	background: grey;
 	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #F3904F;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #3B4371, #F3904F);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.container{
+	width: 450px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;	
+	background: rgba( 255, 255, 255, 0.1 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 12px );
+	-webkit-backdrop-filter: blur( 12px );
+	border-radius: 20px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	margin: 10px 5px;
+}
+
+.card_header{
+	width: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.card_header img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	object-fit: contain;
+}
+.titles{
+	text-align: center;
+}
+.titles h1{
+	margin-bottom: 0px;
+}
+.titles p{
+	margin-top: 8px;
+}
 .button {
  font-family: inherit;
  background: #2CA0D9;
