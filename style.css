@@ -84,8 +84,8 @@ body{
  margin: 0;
  transition: all 0.5s;
  color: #2CA0D9;
- width: 1.2rem;
- height: 1.2rem;
+ width: 1.4rem;
+ height: 1.4rem;
 }
 
 .button:hover .icon svg {
@@ -99,4 +99,10 @@ body{
 
 .card_body button{
 	margin: 10px 0px;
+}
+
+@media(max-width: 500px){
+	.container{
+		width: 290px;
+	}
 }
